@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <title>Site title</title>
+    <meta name="description" content="Site description">
+      
+    <link rel="shortcut icon" type="image/png" href="assets/images/icon-192x192.png">
+    <link rel="shortcut icon" sizes="196x196" href="assets/images/icon-192x192.png">
+    <link rel="apple-touch-icon" href="assets/images/icon-192x192.png">
+
+    <!-- Link to the stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    
+  </head>
+  <body>
+    
+    <header>
+      <h1>
+        <a href="#home">Zen Garden Websites</a>
+      </h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#examples">Examples</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="home">
+        <a href="#about"><img src="assets/images/enso.png" alt="Enso" /></a>
+      </section>
+      
+      <section id="about">
+        <h2>About</h2>
+        <div class="twocols">
+            <p>This website consists of just two files: a single HTML file and a single CSS file. This is based on the idea of Dave Shea, who created CSS Zen Garden. He wanted to show what was possible through CSS alone. The goal of this website is to show what can be done with just one simple CSS and one simple HTML file. It aims to illustrate how simple web development can be. The minimalistic approach has many advantages (and some disadvantages) and is all about minimalism. Zen Garden websites are easy to build, easy to maintain and often cheap or free to host.</p>
+        </div>
+      </section>
+
+      <section id="examples">
+        <h2>Examples</h2>
+        <div class="examples">
+            <a href="https://jhvanderschee.github.io/democratizepublishing/matt-mullenweg"><img src="assets/images/matt.png" alt="Matt Mulderberg" /></a>
+            <a href="https://www.semkrikke.nl/"><img src="assets/images/semkrikke1.jpg" alt="Sem Krikke" /></a>
+            <a href="#home"><img src="assets/images/zengardenwebsites.png" alt="Zen Garden Websites" /></a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="centered">
+            <p>Want to submit a website? Great!<br>Just build your website and send it in a ZIP file to joost@vdschee.nl.</p>
+        </div>
+      </section>
+
+    </main>
+    <footer>
+      <span>&copy; 2022 - zen garden websites</span>
+    </footer>
+    
+    <script type="text/javascript">
+      /* Make sure a hash is loaded */
+      if (window.location.hash == '') window.location.href = '#home';
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,28 @@
+*,*::after, *::before {margin: 0; padding: 0; box-sizing: border-box;}
+html {font-size: 20px;}
+body {background: #fff; background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png"); border: 1rem solid #fbfaf9; border-top: 0; border-bottom: 0; min-height: 100vh; font-size: 0.85rem; font-family: 'Spectral'; line-height: 1.5; letter-spacing: -0.02em; overflow: auto;}
+body, a {color: #3a3731; text-decoration: none;}
+img {max-width: 100%;}
+h1,h2,h3 {line-height: 1.1; margin-bottom: 1em; font-size: 1.6rem;}
+h2::before {content: ""; display: block; width: 2rem; height: 1.5rem; background: url('assets/images/lotus.png') center center / contain no-repeat; margin: 0 auto 0.4rem; opacity: 0.8;}
+p {margin-bottom: 1.5em;}
+section {min-height: 30rem; padding: 12rem 2rem 12rem; display: none; align-items: center; flex-direction: column; justify-content: flex-start; margin: auto 0; min-height: calc(100vh - 1rem);}
+section:target {display: flex;}
+header, footer {position: absolute; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; z-index: 2; text-align: center;}
+section,header,footer {max-width: 50rem; width: 100%; margin-left: auto; margin-right: auto;}
+main {position: relative;}
+main::after, main::before {content: ""; height: 1rem; width: 100vw; left: 0; position: absolute; background: #fbfaf9; margin-left: -1rem;} 
+nav {display: flex; gap: 1rem;}
+div.twocols {column-width: 22rem; column-gap: 1rem; width: 100%;}
+div.centered {max-width: 22rem; text-align: center;}
+header {top: 0; padding: 0 3rem 0; height: 14rem; display: flex; flex-direction: column; justify-content: center;}
+header h1 {margin: 0 0 0.5rem;}
+header nav a {border-bottom: 1px solid transparent;}
+header nav a:hover {border-color: #3a3731;}
+footer {padding: 0 3rem 4rem; transform: translate(-50%, -100%); font-style: italic; font-size: 0.8rem;}
+main {margin: 0 auto;}
+section#home img {width: 25rem; opacity: 0.8; margin: 1rem 0 0;}
+div.examples {display: flex; gap: 1rem 2rem; flex-wrap: wrap; justify-content: center;}
+div.examples a {display: block; margin-bottom: 0.4rem;}
+div.examples a img {max-width: 10rem; display: block; border: 1px solid #3a3731;}
+div.examples a:hover img {transform: scale(1.05);}
