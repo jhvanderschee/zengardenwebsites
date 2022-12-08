@@ -45,6 +45,3 @@ div.examples > div a:first-child:hover img {transform: scale(1.05);}
     main::after, main::before {height: 0.5rem;}
     footer {padding-bottom: 2rem;}
 }
-@media only screen and (min-width: 125rem) { 
-    body {background: url('assets/images/mountains.png') left calc(100% - 3rem) / 40rem auto no-repeat, url('assets/images/mountains2.png') calc(100% + 7rem) bottom / 50rem auto no-repeat, url("assets/images/bedge-grunge.png");}
-}
