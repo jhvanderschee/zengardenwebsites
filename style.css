@@ -24,7 +24,7 @@ header nav a:hover {border-color: #3a3731;}
 footer {padding: 0 3rem 3.5rem; transform: translate(-50%, -100%); font-style: italic; font-size: 0.8rem;}
 main {margin: 0 auto;}
 section#home img {width: 25rem; opacity: 0.8; margin: 1rem 0 0;}
-div.examples {display: flex; gap: 1rem 2rem; flex-wrap: wrap; justify-content: center; margin: 1rem 0; text-align: center; font-style: italic;}
+div.examples {display: flex; gap: 2rem 2rem; flex-wrap: wrap; justify-content: center; margin: 1rem 0; text-align: center; font-style: italic;}
 div.examples > div a:first-child {display: block; margin-bottom: 0.2rem;}
 div.examples > div a:first-child img {max-width: 10rem; display: block; border: 1px solid #3a3731;}
 div.examples > div a:first-child:hover img {transform: scale(1.05);}
