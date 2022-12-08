@@ -1,6 +1,6 @@
 # zengardenwebsites
 
-Demo: https://john-doe.neocities.org/
+Demo: https://www.zengardenwebsites.com
 
 A website in a single HTML file. It simply uses the #anchor suffix and the :target CSS selector to show and hide pages/content.
 
