@@ -76,8 +76,24 @@
     </footer>
     
     <script type="text/javascript">
+      /* Add eventlistener to hash links */
+      var els = document.querySelectorAll('a[href^="#"]');
+      els.forEach(function(el) {
+          el.addEventListener('click',function(e) {
+              setActiveLink(el.getAttribute('href'))
+          });
+      });
+      /* Set the actice hash/class function */
+      function setActiveLink(hash) {
+          var links = document.querySelectorAll('a[href^="#"]');
+          links.forEach(function(link) {
+              link.classList.remove('active');
+              if(link.getAttribute('href')==hash) link.classList.add('active');
+          });
+      }
       /* Make sure a hash is loaded */
       if (window.location.hash == '') window.location.href = '#home';
+      setActiveLink(window.location.hash);
     </script>
 
   </body>
