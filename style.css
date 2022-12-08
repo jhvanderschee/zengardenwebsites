@@ -28,3 +28,11 @@ div.examples {display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center
 div.examples > div a:first-child {display: block; margin-bottom: 0.2rem;}
 div.examples > div a:first-child img {max-width: 10rem; display: block; border: 1px solid #3a3731;}
 div.examples > div a:first-child:hover img {transform: scale(1.05);}
+
+@media only screen and (max-width: 25rem) { 
+    body {border-width: 0.5rem;}
+    section {min-height: calc(100vh - 0.5rem); padding: 11rem 1.25rem 12rem;}
+    header {height: 12rem;}
+    footer {padding-bottom: 3rem;}
+    main::after, main::before {height: 0.5rem;}
+}
