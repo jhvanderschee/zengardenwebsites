@@ -24,7 +24,7 @@ header nav a {border-bottom: 1px solid transparent;}
 header nav a.active,
 header nav a:hover {border-color: #3a3731;}
 footer {padding: 0 3rem 3.5rem; transform: translate(-50%, -100%); font-style: italic; font-size: 0.8rem;}
-footer img {height: 7rem; opacity: 0.8; display: inline-block; margin: 0 0 0.75rem;}
+footer img {height: 6.5rem; opacity: 0.8; display: inline-block; margin: 0 0 0.75rem;}
 main {margin: 0 auto;}
 section#home img {width: 25rem; opacity: 0.8; margin: 1rem 0 0;}
 div.examples {display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin: 1.75rem 0; text-align: center; font-style: italic;}
