@@ -7,26 +7,30 @@ h1,h2,h3 {line-height: 1.1; margin-bottom: 0.75em; font-size: 1.6rem;}
 h2::before {content: ""; display: block; width: 2rem; height: 1.5rem; background: url('assets/images/lotus.png') center center / contain no-repeat; margin: 0 auto 0.4rem; opacity: 0.8;}
 p {margin-bottom: 1.5em;}
 h2:not(:first-child) {margin-top: 1em;}
-section {min-height: 30rem; padding: 12.5rem 2rem 15rem; display: none; align-items: center; flex-direction: column; justify-content: flex-start; margin: auto 0; min-height: calc(100vh - 1rem);}
-section:target {display: flex;}
-section a {text-decoration: underline;}
-section a:hover {text-decoration: none; color: rgb(155, 18, 18);}
-header, footer {position: absolute; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; z-index: 2; text-align: center;}
-section,header,footer {max-width: 50rem; width: 100%; margin-left: auto; margin-right: auto;}
-main {position: relative;}
-main::after, main::before {content: ""; height: 1rem; width: 100vw; left: 0; position: absolute; background: #fff; margin-left: -1rem;} 
-nav {display: flex; gap: 1rem;}
 
-section p {max-width: 22rem; text-align: center;}
+header, footer {position: absolute; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; z-index: 2; text-align: center;}
 header {top: 0; padding: 0 3rem 0; height: 14rem; display: flex; flex-direction: column; justify-content: center;}
 header h1 {margin: 0 0 0.5rem;}
+header nav {display: flex; gap: 1rem;}
 header nav a {border-bottom: 1px solid transparent;}
 header nav a.active,
 header nav a:hover {border-color: #3a3731;}
-footer {padding: 0 3rem 3.5rem; transform: translate(-50%, -100%); font-style: italic; font-size: 0.8rem;}
+
+footer {padding: 0 3rem 3rem; transform: translate(-50%, -100%); font-style: italic; font-size: 0.8rem;}
 footer img {height: 6.5rem; opacity: 0.8; display: inline-block; margin: 0 0 0.75rem;}
-main {margin: 0 auto;}
+
+main {position: relative;}
+main::after, main::before {content: ""; height: 1rem; width: 100vw; left: 0; position: absolute; background: #fff; margin-left: -1rem;} 
+
+section,header,footer {max-width: 50rem; width: 100%; margin-left: auto; margin-right: auto;}
+section {min-height: 30rem; padding: 12.5rem 2rem 17rem; display: none; align-items: center; flex-direction: column; justify-content: flex-start; margin: 0 auto; min-height: calc(100vh - 1rem);}
+section:target {display: flex;}
+section a {text-decoration: underline;}
+section a:hover {text-decoration: none; color: rgb(155, 18, 18);}
+section p {max-width: 22rem; text-align: center;}
+
 section#home img {width: 25rem; opacity: 0.8; margin: 1rem 0 0;}
+
 div.examples {display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin: 1.25rem 0; text-align: center; font-style: italic;}
 div.examples > div a:first-child {display: block; margin-bottom: 0.2rem;}
 div.examples > div a:first-child img {max-width: 10rem; display: block; border: 1px solid #3a3731;}
@@ -34,8 +38,7 @@ div.examples > div a:first-child:hover img {transform: scale(1.05);}
 
 @media only screen and (max-width: 25rem) { 
     body {border-width: 0.5rem;}
-    section {min-height: calc(100vh - 0.5rem); padding: 11.5rem 1.25rem 15rem;}
-    header {height: 12rem;}
-    footer {padding-bottom: 3rem;}
+    section {min-height: calc(100vh - 0.5rem); padding-left: 1.25rem; padding-right: 1.25rem; padding-top: 13.5rem;}
     main::after, main::before {height: 0.5rem;}
+    footer {padding-bottom: 2rem;}
 }
