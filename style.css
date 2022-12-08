@@ -29,7 +29,7 @@ section a {text-decoration: underline;}
 section a:hover {text-decoration: none; color: rgb(155, 18, 18);}
 section p {max-width: 22rem; text-align: center;}
 
-section#home img {width: 25rem; opacity: 0.8; margin: 1rem 0 0;}
+section#home img {width: 25rem; opacity: 0.8;}
 
 div.examples {display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin: 1rem 0; text-align: center; font-style: italic;}
 div.examples > div a:first-child {display: block; margin-bottom: 0.2rem;}
