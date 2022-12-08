@@ -2,7 +2,7 @@
 html {font-size: 20px;}
 body {background: #fff; background: url('assets/images/mountains.png') calc(50% - 30rem) calc(100% - 3rem) / 40rem auto no-repeat, url('assets/images/mountains2.png') calc(50% + 32rem) bottom / 50rem auto no-repeat, url("assets/images/bedge-grunge.png"); background-blend-mode: multiply; border: 1rem solid #fff; border-top: 0; border-bottom: 0; min-height: 100vh; font-size: 0.85rem; font-family: 'Spectral'; line-height: 1.5; letter-spacing: -0.02em; overflow: auto;}
 body, a {color: #3a3731; text-decoration: none;}
-img {max-width: 100%;}
+img {max-width: 100%; height: auto;}
 h1,h2,h3 {line-height: 1.1; margin-bottom: 0.75em; font-size: 1.6rem;}
 h2::before {content: ""; display: block; width: 2rem; height: 1.5rem; background: url('assets/images/lotus.png') center center / contain no-repeat; margin: 0 auto 0.4rem; opacity: 0.8;}
 p {margin-bottom: 1.5em;}
